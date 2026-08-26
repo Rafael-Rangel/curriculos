@@ -70,7 +70,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS multi-tenant com RAG, multiagentes, system prompts e canais WhatsApp/Instagram em escala.",
+                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
             },
             {
                 "nome": "Rubi 2.0 / Conversation AI",
@@ -121,7 +121,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Front-end Developer",
                 "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Built apps and APIs that later fed RAG pipelines and agents.",
@@ -132,7 +132,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Multi-tenant SaaS with RAG, multi-agent flows, system prompts, and WhatsApp/Instagram at scale.",
+                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
             },
             {
                 "nome": "Rubi 2.0 / Conversation AI",
@@ -182,7 +182,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Desenvolvedor Front-end",
                 "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Estruturei frontends e integrações com foco em performance, SEO e contratos de API.",
@@ -194,7 +194,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Arquitetura SaaS multi-tenant, omnichannel, filas e agentes de IA.",
+                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
@@ -239,7 +239,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Front-end Developer",
                 "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Structured frontends and integrations with performance, SEO, and API contracts in mind.",
@@ -251,7 +251,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Multi-tenant SaaS architecture, omnichannel, queues, and AI agents.",
+                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
@@ -294,7 +294,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Desenvolvedor Front-end",
                 "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi sites, landing pages e SPAs com HTML, CSS, JavaScript, React e Next.js.",
@@ -306,7 +306,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS full stack de CRM e atendimento, multi-tenant, com IA e canais Meta.",
+                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
@@ -349,7 +349,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Front-end Developer",
                 "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Developed sites, landing pages, and SPAs with HTML, CSS, JavaScript, React, and Next.js.",
@@ -361,7 +361,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Full-stack SaaS CRM and support, multi-tenant, with AI and Meta channels.",
+                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
@@ -404,7 +404,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Desenvolvedor Front-end",
                 "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Levantei necessidades de clientes e transformei em sites, landing pages e integrações.",
@@ -416,7 +416,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Mapeamento de módulos, papéis, funil, inbox e integrações omnichannel.",
+                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
             },
             {
                 "nome": "GSALES CRM",
@@ -459,7 +459,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Front-end Developer",
                 "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Gathered client needs and turned them into sites, landing pages, and integrations.",
@@ -471,7 +471,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Module, role, pipeline, inbox, and omnichannel integration mapping.",
+                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
             },
             {
                 "nome": "GSALES CRM",
@@ -514,7 +514,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Desenvolvedor Front-end",
                 "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi websites, landing pages e SPAs com HTML, CSS, JavaScript e React.",
@@ -526,7 +526,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Produto SaaS full stack de CRM e atendimento.",
+                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
@@ -573,7 +573,7 @@ VERSOES = [
             },
             {
                 "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
+                "cargo": "Front-end Developer",
                 "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Built websites, landing pages, and SPAs with HTML, CSS, JavaScript, and React.",
@@ -585,7 +585,7 @@ VERSOES = [
             {
                 "nome": "KoruVision CRM",
                 "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "Full-stack SaaS CRM and support product.",
+                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
             },
             {
                 "nome": "Pulse",
