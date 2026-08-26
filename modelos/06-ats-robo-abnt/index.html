@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafael Rangel dos Santos Farinha</title>
+    <style>
+      @page {
+        size: A4;
+        margin: 1.8cm 2cm 1.8cm 2.2cm;
+      }
+      * {
+        box-sizing: border-box;
+      }
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: #fff;
+        color: #000;
+        font-family: Calibri, Arial, "Segoe UI", sans-serif;
+        font-size: 11pt;
+        line-height: 1.28;
+      }
+      .toolbar {
+        font-size: 11pt;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid #000;
+      }
+      .toolbar a,
+      .toolbar button {
+        color: #000;
+        background: #fff;
+        border: 1px solid #000;
+        padding: 4px 10px;
+        margin: 0 6px;
+        font: inherit;
+        cursor: pointer;
+        text-decoration: none;
+      }
+      .doc {
+        max-width: 210mm;
+        margin: 0 auto;
+        padding: 1.8cm 2cm 1.8cm 2.2cm;
+      }
+      h1,
+      h2,
+      h3,
+      p,
+      ul {
+        margin: 0;
+        padding: 0;
+        color: #000;
+        font-size: 11pt;
+        font-weight: normal;
+        font-family: Calibri, Arial, "Segoe UI", sans-serif;
+      }
+      h1 {
+        font-size: 14pt;
+        font-weight: bold;
+        text-align: center;
+        text-transform: uppercase;
+      }
+      .headline,
+      .contato {
+        text-align: center;
+      }
+      .contato {
+        margin: 6pt 0 10pt;
+        font-size: 10pt;
+      }
+      a {
+        color: #000;
+      }
+      h2 {
+        font-weight: bold;
+        text-transform: uppercase;
+        border-bottom: 1px solid #000;
+        margin: 11pt 0 6pt;
+        padding-bottom: 2pt;
+        font-size: 11pt;
+      }
+      .resumo {
+        text-align: justify;
+      }
+      .job {
+        display: grid;
+        grid-template-columns: 3.4cm 1fr;
+        column-gap: 10px;
+        margin: 0 0 10pt;
+        border-left: 1.1px solid #000;
+        padding-left: 8px;
+      }
+      .job time {
+        font-weight: bold;
+        font-size: 9.5pt;
+      }
+      .job h3 {
+        font-weight: bold;
+      }
+      .job .empresa {
+        margin-bottom: 3pt;
+      }
+      ul {
+        margin: 2pt 0 0 16pt;
+      }
+      li {
+        margin-bottom: 2pt;
+        text-align: justify;
+      }
+      .projeto {
+        margin-bottom: 7pt;
+      }
+      .projeto p {
+        text-align: justify;
+      }
+      @media print {
+        .toolbar {
+          display: none !important;
+        }
+        .doc {
+          padding: 0;
+          max-width: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="toolbar">
+      <button type="button" onclick="window.print()">Imprimir / Salvar PDF</button>
+      <a href="../../index.html">Todos os modelos</a>
+    </div>
+    <article class="doc">
+      <h1>Rafael Rangel dos Santos Farinha</h1>
+      <p class="headline">Engenheiro de Software Full Stack</p>
+      <p class="contato">
+        Rio de Janeiro – RJ · (21) 92036-1740 · stackflow.soft@gmail.com<br />
+        <a href="https://github.com/Rafael-Rangel/">github.com/Rafael-Rangel</a>
+        ·
+        <a href="https://rafael-rangel.github.io/portfolio/">rafael-rangel.github.io/portfolio</a>
+      </p>
+
+      <h2>Resumo</h2>
+      <p class="resumo">
+        Engenheiro de Software Full Stack com atuação na construção de plataformas SaaS
+        multi-tenant, CRMs, integrações de APIs e produtos com Inteligência Artificial.
+        Experiência ponta a ponta: requisitos, arquitetura, frontend, backend, dados,
+        automação e implantação. Atualmente Diretor do Departamento de Software e Software
+        Engineer na Genesis Company. Stack principal: TypeScript, React, Next.js, Node.js,
+        NestJS e PostgreSQL.
+      </p>
+
+      <h2>Experiência profissional</h2>
+      <div class="job">
+        <time>Jul 2025 – Atual</time>
+        <div>
+          <h3>Diretor do Departamento de Software &amp; Software Engineer</h3>
+          <p class="empresa">Genesis Company · Rio de Janeiro, RJ</p>
+          <ul>
+            <li>
+              Dirige o Departamento de Software: arquitetura, prioridades, padrões de
+              engenharia e entrega de produtos digitais.
+            </li>
+            <li>
+              Desenvolve plataformas SaaS multi-tenant (CRM, atendimento, workspaces,
+              permissões e isolamento de dados).
+            </li>
+            <li>
+              Integra WhatsApp, Instagram, Messenger e webchat com APIs, webhooks, filas e
+              múltiplas instâncias.
+            </li>
+            <li>
+              Incorpora agentes de IA, RAG e knowledge base em fluxos de atendimento e
+              automação.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="job">
+        <time>Jul 2024 – Jul 2025</time>
+        <div>
+          <h3>Web Developer / Software Developer</h3>
+          <p class="empresa">Webmaker · Rio de Janeiro, RJ</p>
+          <ul>
+            <li>
+              Desenvolveu websites, landing pages e aplicações web com HTML, CSS, JavaScript,
+              React e Next.js.
+            </li>
+            <li>
+              Implementou integrações com APIs, manutenção de sistemas, performance e SEO
+              técnico.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <h2>Projetos em destaque</h2>
+      <div class="projeto">
+        <p>
+          <strong>KoruVision CRM</strong> —
+          <a href="https://github.com/Rafael-Rangel/koruvision-landing"
+            >github.com/Rafael-Rangel/koruvision-landing</a>
+        </p>
+        <p>
+          Plataforma SaaS multi-tenant de CRM e atendimento omnichannel, com inbox, funil,
+          automações, agentes de IA e integração WhatsApp / Instagram.
+        </p>
+      </div>
+      <div class="projeto">
+        <p>
+          <strong>Pulse — controle financeiro</strong> —
+          <a href="https://pulse-rangel1.vercel.app">pulse-rangel1.vercel.app</a>
+        </p>
+        <p>
+          Aplicação web de controle financeiro pessoal em TypeScript.
+          <a href="https://github.com/Rafael-Rangel/pulse">github.com/Rafael-Rangel/pulse</a>
+        </p>
+      </div>
+      <div class="projeto">
+        <p>
+          <strong>Inglês conversacional para Devs</strong> —
+          <a href="https://github.com/Rafael-Rangel/ingles-conversacional-devs"
+            >github.com/Rafael-Rangel/ingles-conversacional-devs</a>
+        </p>
+        <p>
+          Aplicação de estudo e conversação com professor de IA, voltada a desenvolvedores.
+        </p>
+      </div>
+
+      <h2>Formação</h2>
+      <p>Análise e Desenvolvimento de Sistemas — FIAP. Conclusão em 2025 (2 anos).</p>
+
+      <h2>Certificados</h2>
+      <ul>
+        <li>
+          Certificado de Qualificação Profissional em Estratégia e Inovação Tecnológica com
+          aplicações em IA e IoT (2025)
+        </li>
+        <li>
+          Certificado de Qualificação Profissional em Desenvolvimento de Aplicações Móveis (2025)
+        </li>
+        <li>Certificado de Qualificação Profissional em Análise e Design Web 2.0 (2024)</li>
+        <li>
+          Certificado de Qualificação Profissional em Análise de Sistemas e Prototipação Web (2024)
+        </li>
+        <li>
+          Certificado de Qualificação Profissional em Análise de Sistemas e Prototipagem Web (2024)
+        </li>
+        <li>
+          Certificado de Qualificação Profissional em Desenvolvimento e Designer Web 2.0 (2024)
+        </li>
+      </ul>
+
+      <h2>Competências técnicas</h2>
+      <ul>
+        <li><strong>Linguagens:</strong> TypeScript, JavaScript, Python, HTML, CSS, SQL</li>
+        <li><strong>Frontend:</strong> React, Next.js, SPA, PWA, WordPress</li>
+        <li><strong>Backend e dados:</strong> Node.js, NestJS, APIs REST, webhooks, PostgreSQL</li>
+        <li>
+          <strong>IA, integrações e infra:</strong> OpenAI, RAG, WhatsApp Cloud API, Meta APIs, AWS,
+          n8n, Docker, VPS, Git
+        </li>
+      </ul>
+    </article>
+  </body>
+</html>

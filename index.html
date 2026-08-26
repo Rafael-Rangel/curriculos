@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Rafael Rangel — Currículos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Instrument+Sans:wght@400;500;600;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/app.css" />
+  </head>
+  <body>
+    <div class="glow glow-a" aria-hidden="true"></div>
+    <div class="glow glow-b" aria-hidden="true"></div>
+
+    <header class="top">
+      <div class="brand">
+        <span class="mark">RR</span>
+        <div>
+          <p class="eyebrow">Arquivo de currículos</p>
+          <h1>Rafael Rangel</h1>
+        </div>
+      </div>
+      <nav class="links">
+        <a href="https://github.com/Rafael-Rangel/" target="_blank" rel="noopener">GitHub</a>
+        <a href="https://rafael-rangel.github.io/portfolio/" target="_blank" rel="noopener">Portfólio</a>
+      </nav>
+    </header>
+
+    <div class="layout" id="layout">
+      <aside class="sidebar" id="sidebar">
+        <p class="side-kicker">Escolha o idioma e a vaga</p>
+        <div class="lang" role="tablist">
+          <button type="button" class="lang-btn is-on" data-lang="pt-br" role="tab">Português</button>
+          <button type="button" class="lang-btn" data-lang="en" role="tab">English</button>
+        </div>
+        <div class="files" id="tree"></div>
+      </aside>
+
+      <section class="stage">
+        <div class="preview-bar" id="bar">
+          <button type="button" class="back" id="back" hidden>Pastas</button>
+          <div class="bar-copy">
+            <span class="bar-label">Pré-visualização</span>
+            <strong id="bar-title">Nenhum arquivo aberto</strong>
+          </div>
+          <div class="bar-actions" id="actions"></div>
+        </div>
+        <div class="paper-wrap">
+          <div class="empty" id="empty">
+            <em>Selecione um currículo</em>
+            <p>Cada versão é ATS, uma página, Calibri, em português e inglês.</p>
+          </div>
+          <iframe id="frame" title="Pré-visualização do currículo" hidden></iframe>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+    <script src="assets/catalogo.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

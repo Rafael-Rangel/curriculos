@@ -1,0 +1,24 @@
+RAFAEL RANGEL DOS SANTOS FARINHA
+Engenheiro de Software Full Stack
+Rio de Janeiro – RJ · (21) 92036-1740 · stackflow.soft@gmail.com
+https://github.com/Rafael-Rangel/
+
+PERFIL PROFISSIONAL
+Engenheiro de Software Full Stack com atuação em plataformas SaaS, sistemas multi-tenant, CRMs, integrações de APIs e Inteligência Artificial. Atua em requisitos, arquitetura, frontend, backend, banco de dados, automação e implantação. Diretor do Departamento de Software e Software Engineer na Genesis Company.
+
+EXPERIENCIA PROFISSIONAL
+
+Genesis Company. Diretor do Departamento de Software e Software Engineer. Julho 2025 – Atual.
+- Direção técnica do Departamento de Software e desenvolvimento de plataformas SaaS multi-tenant, CRMs e sistemas de atendimento.
+- Integração de APIs, webhooks, WhatsApp, Instagram e Meta, com automações e agentes de Inteligência Artificial.
+- Desenvolvimento full stack com TypeScript, React, Next.js, Node.js, NestJS e PostgreSQL.
+
+Webmaker. Web Developer / Software Developer. Julho 2024 – Julho 2025.
+- Desenvolvimento de websites, landing pages e aplicações web com HTML, CSS, JavaScript, React e Next.js.
+- Integração com APIs, manutenção de sistemas, performance e SEO técnico.
+
+PROJETOS
+KoruVision CRM: plataforma SaaS multi-tenant de CRM e atendimento, com Inteligência Artificial e integração WhatsApp. Rubi 2.0: atendimento com agentes de IA e RAG. GSALES CRM: integrações e automação de processos comerciais.
+
+COMPETENCIAS
+TypeScript, JavaScript, HTML, CSS, React, Next.js, Node.js, NestJS, PostgreSQL, APIs REST, webhooks, Docker, OpenAI, RAG, WhatsApp Cloud API, n8n.

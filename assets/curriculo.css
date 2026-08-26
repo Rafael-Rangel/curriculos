@@ -1,0 +1,97 @@
+/* Currículo ATS: Calibri, uma coluna, texto preto */
+@page { size: A4; margin: 12mm 14mm; }
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  background: #e8eaed;
+  color: #000;
+  font-family: Calibri, Arial, "Segoe UI", sans-serif;
+  font-size: 11pt;
+  line-height: 1.28;
+}
+
+.toolbar {
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  justify-content: center;
+  padding: 10px;
+  background: #111;
+}
+
+.toolbar a,
+.toolbar button {
+  color: #fff;
+  background: #2563eb;
+  border: 0;
+  border-radius: 6px;
+  padding: 7px 12px;
+  font: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.doc {
+  width: min(210mm, 100%);
+  margin: 18px auto 40px;
+  padding: 16mm 15mm;
+  background: #fff;
+  box-shadow: 0 8px 28px rgba(0,0,0,.12);
+}
+
+h1, h2, h3, p, ul { margin: 0; color: #000; font-weight: normal; }
+
+h1 {
+  font-size: 15pt;
+  font-weight: 700;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.headline, .contato { text-align: center; }
+.contato { margin: 6pt 0 10pt; font-size: 10pt; }
+a { color: #000; }
+
+h2 {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000;
+  margin: 10pt 0 6pt;
+  padding-bottom: 2pt;
+  font-size: 11pt;
+}
+
+.resumo { text-align: justify; }
+
+.job {
+  display: grid;
+  grid-template-columns: 3.3cm 1fr;
+  gap: 8px;
+  margin: 0 0 8pt;
+  border-left: 1px solid #000;
+  padding-left: 8px;
+}
+
+.job time { font-weight: 700; font-size: 9.5pt; }
+.job h3 { font-weight: 700; }
+.job .empresa { margin-bottom: 3pt; }
+ul { margin: 2pt 0 0 16pt; }
+li { margin-bottom: 2pt; text-align: justify; }
+.projeto { margin-bottom: 6pt; }
+.projeto p { text-align: justify; }
+
+@media print {
+  html, body { background: #fff; }
+  .toolbar { display: none !important; }
+  .doc { margin: 0; padding: 0; box-shadow: none; width: auto; }
+}
+
+@media (max-width: 700px) {
+  .doc { padding: 18px 14px 28px; margin: 0; }
+  .job { grid-template-columns: 1fr; }
+}
