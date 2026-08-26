@@ -33,6 +33,26 @@ CERTS_EN = [
     "Professional Qualification in Web 2.0 Development and Design (2024)",
 ]
 
+JOB_FRONT_PT = {
+    "periodo": "Jul 2024 – Jul 2025",
+    "cargo": "Desenvolvedor Front-end",
+    "empresa": "Web · Rio de Janeiro, RJ",
+    "itens": [
+        "Produzi e-commerce com +5.000 produtos, cadastro de catálogo, integração ao Bling, PDV em 3 lojas e estoque 100% sincronizado com fábrica.",
+        "Desenvolvi sistema de delivery com gateway de pagamento, split Pagar.me, cálculo de frete e integração aos Correios.",
+    ],
+}
+
+JOB_FRONT_EN = {
+    "periodo": "Jul 2024 – Jul 2025",
+    "cargo": "Front-end Developer",
+    "empresa": "Web · Rio de Janeiro, Brazil",
+    "itens": [
+        "Built e-commerce with 5,000+ products, catalog management, Bling integration, POS in 3 stores, and factory inventory fully synchronized.",
+        "Built a delivery system with payment gateway, Pagar.me split, freight calculation, and Correios integration.",
+    ],
+}
+
 # slug, pasta, idioma, label na UI, cargo, headline, resumo, jobs, projetos, skills
 VERSOES = [
     {
@@ -44,13 +64,14 @@ VERSOES = [
         "cargo": "Engenheiro de Inteligência Artificial",
         "headline": "AI Engineer  ·  RAG  ·  Multiagente  ·  System prompt  ·  Economia de tokens  ·  Evals  ·  Escala",
         "resumo": (
-            "Engenheiro de IA e software: LLM, RAG, embeddings, hybrid search, BM25, rerank, grounding, "
-            "citações, knowledge base, multiagente, orquestração, planner/executor, tool calling, function calling, "
-            "system prompt, context engineering, prompt caching, token budget, economia de tokens, model routing, "
-            "streaming, evals, faithfulness, hallucination control, LLM-as-judge, human-in-the-loop, precisão de agentes. "
-            "SaaS multi-tenant, CRM, omnichannel, WhatsApp Cloud API, Instagram, Meta, webhooks, APIs REST, filas, "
-            "escala horizontal, load balancing, isolamento de tenant, ACL, RBAC, pgvector, PostgreSQL, TypeScript, "
-            "Python, React, Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII, prompt injection."
+            "Engenheiro de IA e software: construo pipelines de LLM e RAG com embeddings, hybrid search, BM25, "
+            "rerank, grounding, citações e knowledge base. Orquestro sistemas multiagente (planner/executor) com "
+            "tool calling, function calling, system prompt, context engineering, prompt caching, token budget, "
+            "economia de tokens, model routing e streaming, e meço precisão com evals, faithfulness, hallucination "
+            "control, LLM-as-judge e human-in-the-loop. Entrego isso em SaaS multi-tenant de CRM omnichannel "
+            "(WhatsApp Cloud API, Instagram, Meta), com webhooks, APIs REST, filas, escala horizontal, load balancing, "
+            "isolamento de tenant, ACL, RBAC, pgvector e PostgreSQL — stack TypeScript, Python, React, Next.js, "
+            "Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII e prompt injection."
         ),
         "jobs": [
             {
@@ -65,6 +86,7 @@ VERSOES = [
                     "Escalei inferência e filas por tenant: isolamento de contexto, ACL na knowledge base, streaming, retries e observabilidade LLMOps.",
                 ],
             },
+            JOB_FRONT_PT,
         ],
         "projetos": [
             {
@@ -98,13 +120,14 @@ VERSOES = [
         "cargo": "AI Engineer",
         "headline": "AI Engineer  ·  RAG  ·  Multi-agent  ·  System prompt  ·  Token economics  ·  Evals  ·  Scale",
         "resumo": (
-            "AI and software engineer: LLM, RAG, embeddings, hybrid search, BM25, rerank, grounding, citations, "
-            "knowledge base, multi-agent orchestration, planner/executor, tool calling, function calling, "
-            "system prompt, context engineering, prompt caching, token budget, token economics, model routing, "
-            "streaming, evals, faithfulness, hallucination control, LLM-as-judge, human-in-the-loop, agent precision. "
-            "Multi-tenant SaaS, CRM, omnichannel, WhatsApp Cloud API, Instagram, Meta, webhooks, REST APIs, queues, "
-            "horizontal scale, load balancing, tenant isolation, ACL, RBAC, pgvector, PostgreSQL, TypeScript, "
-            "Python, React, Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII, prompt injection."
+            "AI and software engineer: I build LLM and RAG pipelines with embeddings, hybrid search, BM25, rerank, "
+            "grounding, citations, and a knowledge base. I orchestrate multi-agent systems (planner/executor) with "
+            "tool calling, function calling, system prompt, context engineering, prompt caching, token budget, "
+            "token economics, model routing, and streaming, and I measure precision with evals, faithfulness, "
+            "hallucination control, LLM-as-judge, and human-in-the-loop. I ship this in multi-tenant SaaS CRM and "
+            "omnichannel (WhatsApp Cloud API, Instagram, Meta), with webhooks, REST APIs, queues, horizontal scale, "
+            "load balancing, tenant isolation, ACL, RBAC, pgvector, and PostgreSQL — stack TypeScript, Python, React, "
+            "Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII, and prompt injection."
         ),
         "jobs": [
             {
@@ -119,14 +142,7 @@ VERSOES = [
                     "Scaled inference and queues per tenant: context isolation, knowledge-base ACLs, streaming, retries, and LLMOps observability.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Front-end Developer",
-                "empresa": "Web · Rio de Janeiro, Brazil",
-                "itens": [
-                    "Built apps and APIs that later fed RAG pipelines and agents.",
-                ],
-            },
+            JOB_FRONT_EN,
         ],
         "projetos": [
             {
@@ -161,11 +177,11 @@ VERSOES = [
         "cargo": "Arquiteto de Software",
         "headline": "Arquitetura  ·  SaaS multi-tenant  ·  Escalabilidade  ·  Segurança  ·  AWS  ·  Azure",
         "resumo": (
-            "Arquiteto de software: SaaS, multi-tenancy, workspaces, RBAC, isolamento de dados, APIs REST, "
-            "webhooks, event-driven, filas, processamento assíncrono, microserviços, modularização, C4, "
-            "escala horizontal, load balancing, rate limit, circuit breaker, observabilidade, métricas. "
-            "Segurança: authn, authz, OWASP API, secrets, PII. Cloud: AWS, Azure, Docker, VPS, CI/CD, "
-            "PostgreSQL, TypeScript, Node.js, NestJS, React, Next.js, WhatsApp Cloud API, Meta, CRM, IA, RAG."
+            "Arquiteto de software de SaaS multi-tenant: desenho workspaces, RBAC, isolamento de dados, APIs REST, "
+            "webhooks e arquitetura event-driven com filas, processamento assíncrono, microserviços, modularização e C4. "
+            "Defino escala horizontal, load balancing, rate limit, circuit breaker, observabilidade e métricas, "
+            "com segurança em authn, authz, OWASP API, secrets e PII. Levo isso a AWS, Azure, Docker, VPS e CI/CD, "
+            "usando PostgreSQL, TypeScript, Node.js, NestJS, React, Next.js, WhatsApp Cloud API, Meta, CRM, IA e RAG."
         ),
         "jobs": [
             {
@@ -180,15 +196,7 @@ VERSOES = [
                     "Orientei deploy em VPS/Docker e desenhei o uso de AWS e Azure (compute, identity, storage).",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Desenvolvedor Front-end",
-                "empresa": "Web · Rio de Janeiro, RJ",
-                "itens": [
-                    "Estruturei frontends e integrações com foco em performance, SEO e contratos de API.",
-                    "Documentei fluxos e evoluí sistemas de clientes sem quebrar operação.",
-                ],
-            },
+            JOB_FRONT_PT,
         ],
         "projetos": [
             {
@@ -206,7 +214,7 @@ VERSOES = [
             "<b>Arquitetura:</b> multi-tenancy, event-driven, filas, webhooks, modularização, observabilidade",
             "<b>Escala e segurança:</b> load balancing, horizontal scaling, RBAC, OWASP, secrets, PII, rate limit",
             "<b>Cloud:</b> AWS, Azure, Docker, VPS, CI/CD básico, PostgreSQL",
-            "<b>Stack:</b> TypeScript, Node.js, NestJS, React, Next.js, APIs REST",
+            "<b>Stack:</b> TypeScript, Node.js, NestJS, React, Next.js, APIs REST, Bling, Pagar.me, Correios, PDV",
         ],
     },
     {
@@ -218,11 +226,12 @@ VERSOES = [
         "cargo": "Software Architect",
         "headline": "Architecture  ·  Multi-tenant SaaS  ·  Scalability  ·  Security  ·  AWS  ·  Azure",
         "resumo": (
-            "Software architect: SaaS, multi-tenancy, workspaces, RBAC, data isolation, REST APIs, webhooks, "
-            "event-driven, queues, async processing, microservices, modularization, C4, horizontal scale, "
-            "load balancing, rate limiting, circuit breaker, observability, metrics. Security: authn, authz, "
-            "OWASP API, secrets, PII. Cloud: AWS, Azure, Docker, VPS, CI/CD, PostgreSQL, TypeScript, Node.js, "
-            "NestJS, React, Next.js, WhatsApp Cloud API, Meta, CRM, AI, RAG."
+            "Software architect for multi-tenant SaaS: I design workspaces, RBAC, data isolation, REST APIs, "
+            "webhooks, and event-driven architecture with queues, async processing, microservices, modularization, "
+            "and C4. I define horizontal scale, load balancing, rate limiting, circuit breaker, observability, and "
+            "metrics, with security around authn, authz, OWASP API, secrets, and PII. I deliver on AWS, Azure, Docker, "
+            "VPS, and CI/CD using PostgreSQL, TypeScript, Node.js, NestJS, React, Next.js, WhatsApp Cloud API, Meta, "
+            "CRM, AI, and RAG."
         ),
         "jobs": [
             {
@@ -237,15 +246,7 @@ VERSOES = [
                     "Guided Docker/VPS delivery and cloud usage on AWS and Azure (compute, identity, storage).",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Front-end Developer",
-                "empresa": "Web · Rio de Janeiro, Brazil",
-                "itens": [
-                    "Structured frontends and integrations with performance, SEO, and API contracts in mind.",
-                    "Documented flows and evolved client systems without breaking operations.",
-                ],
-            },
+            JOB_FRONT_EN,
         ],
         "projetos": [
             {
@@ -263,7 +264,7 @@ VERSOES = [
             "<b>Architecture:</b> multi-tenancy, event-driven, queues, webhooks, modularization, observability",
             "<b>Scale & security:</b> load balancing, horizontal scaling, RBAC, OWASP, secrets, PII, rate limiting",
             "<b>Cloud:</b> AWS, Azure, Docker, VPS, basic CI/CD, PostgreSQL",
-            "<b>Stack:</b> TypeScript, Node.js, NestJS, React, Next.js, REST APIs",
+            "<b>Stack:</b> TypeScript, Node.js, NestJS, React, Next.js, REST APIs, Bling, Pagar.me, Correios, POS",
         ],
     },
     {
@@ -275,10 +276,12 @@ VERSOES = [
         "cargo": "Engenheiro de Software Pleno",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "Engenheiro de software full stack: TypeScript, JavaScript, Python, React, Next.js, Node.js, NestJS, "
-            "PostgreSQL, SQL, APIs REST, webhooks, filas, SaaS multi-tenant, CRM, dashboards, SPA, PWA, "
-            "WhatsApp Cloud API, Instagram, Meta, n8n, Docker, AWS, Azure, Git, Core Web Vitals, Lighthouse, "
-            "RAG, system prompt, agentes, tool calling, performance, SEO técnico, UX, design system."
+            "Engenheiro de software full stack em TypeScript, JavaScript e Python: construo SaaS multi-tenant, CRM, "
+            "dashboards, SPA e PWA com React, Next.js, Node.js, NestJS, PostgreSQL, SQL, APIs REST, webhooks e filas. "
+            "Integro WhatsApp Cloud API, Instagram, Meta e n8n, publico em Docker, AWS, Azure e Git, e cuido de "
+            "Core Web Vitals, Lighthouse, performance, SEO técnico, UX e design system. Incorporo RAG, system prompt, "
+            "agentes e tool calling ao produto, e já entreguei e-commerce, PDV e delivery com Bling, Pagar.me, "
+            "Correios e cálculo de frete."
         ),
         "jobs": [
             {
@@ -292,15 +295,7 @@ VERSOES = [
                     "Acompanhei performance (Core Web Vitals) e evolução contínua dos sistemas.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Desenvolvedor Front-end",
-                "empresa": "Web · Rio de Janeiro, RJ",
-                "itens": [
-                    "Desenvolvi sites, landing pages e SPAs com HTML, CSS, JavaScript, React e Next.js.",
-                    "Integrei APIs, corrigi falhas e otimizei Lighthouse/SEO técnico.",
-                ],
-            },
+            JOB_FRONT_PT,
         ],
         "projetos": [
             {
@@ -319,6 +314,7 @@ VERSOES = [
             "<b>Frontend:</b> React, Next.js, SPA, PWA",
             "<b>Backend:</b> Node.js, NestJS, APIs REST, webhooks, PostgreSQL",
             "<b>Cloud e qualidade:</b> Docker, AWS, Azure, Git, Lighthouse",
+            "<b>Integrações:</b> Bling, Pagar.me, Correios, e-commerce, PDV, delivery",
         ],
     },
     {
@@ -330,10 +326,12 @@ VERSOES = [
         "cargo": "Software Engineer",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "Full-stack software engineer: TypeScript, JavaScript, Python, React, Next.js, Node.js, NestJS, "
-            "PostgreSQL, SQL, REST APIs, webhooks, queues, multi-tenant SaaS, CRM, dashboards, SPA, PWA, "
-            "WhatsApp Cloud API, Instagram, Meta, n8n, Docker, AWS, Azure, Git, Core Web Vitals, Lighthouse, "
-            "RAG, system prompt, agents, tool calling, performance, technical SEO, UX, design systems."
+            "Full-stack software engineer in TypeScript, JavaScript, and Python: I build multi-tenant SaaS, CRM, "
+            "dashboards, SPA, and PWA with React, Next.js, Node.js, NestJS, PostgreSQL, SQL, REST APIs, webhooks, "
+            "and queues. I integrate WhatsApp Cloud API, Instagram, Meta, and n8n, ship on Docker, AWS, Azure, and Git, "
+            "and own Core Web Vitals, Lighthouse, performance, technical SEO, UX, and design systems. I add RAG, "
+            "system prompt, agents, and tool calling to the product, and I have shipped e-commerce, POS, and delivery "
+            "with Bling, Pagar.me, Correios, and freight calculation."
         ),
         "jobs": [
             {
@@ -347,15 +345,7 @@ VERSOES = [
                     "Tracked Core Web Vitals and continuous system evolution.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Front-end Developer",
-                "empresa": "Web · Rio de Janeiro, Brazil",
-                "itens": [
-                    "Developed sites, landing pages, and SPAs with HTML, CSS, JavaScript, React, and Next.js.",
-                    "Integrated APIs, fixed defects, and improved Lighthouse/technical SEO.",
-                ],
-            },
+            JOB_FRONT_EN,
         ],
         "projetos": [
             {
@@ -374,6 +364,7 @@ VERSOES = [
             "<b>Frontend:</b> React, Next.js, SPA, PWA",
             "<b>Backend:</b> Node.js, NestJS, REST APIs, webhooks, PostgreSQL",
             "<b>Cloud & quality:</b> Docker, AWS, Azure, Git, Lighthouse",
+            "<b>Integrations:</b> Bling, Pagar.me, Correios, e-commerce, POS, delivery",
         ],
     },
     {
@@ -385,10 +376,10 @@ VERSOES = [
         "cargo": "Analista de Sistemas",
         "headline": "Requisitos  ·  Processos  ·  Integrações  ·  APIs  ·  Dados  ·  SaaS",
         "resumo": (
-            "Analista de sistemas: levantamento de requisitos, regras de negócio, casos de uso, fluxos, BPM, "
-            "documentação, modelagem de dados, PostgreSQL, APIs REST, webhooks, integrações, CRM, omnichannel, "
-            "WhatsApp Cloud API, Instagram, Meta, SaaS multi-tenant, permissões, RBAC, filas, automações, n8n, "
-            "IA, RAG, agentes, handoff humano, métricas, dashboards, TypeScript, React, Node.js, SQL."
+            "Analista de sistemas: levanto requisitos, regras de negócio, casos de uso, fluxos BPM e documentação, "
+            "e modelo dados em PostgreSQL. Desenho integrações com APIs REST, webhooks e automações n8n para CRM "
+            "omnichannel (WhatsApp Cloud API, Instagram, Meta), SaaS multi-tenant, permissões, RBAC e filas. "
+            "Traduzo IA, RAG, agentes e handoff humano em métricas e dashboards, com TypeScript, React, Node.js e SQL."
         ),
         "jobs": [
             {
@@ -402,15 +393,7 @@ VERSOES = [
                     "Documentei regras de automação, IA e handoff humano para o time executar com clareza.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Desenvolvedor Front-end",
-                "empresa": "Web · Rio de Janeiro, RJ",
-                "itens": [
-                    "Levantei necessidades de clientes e transformei em sites, landing pages e integrações.",
-                    "Especifiquei ajustes de SEO, performance e manutenção contínua.",
-                ],
-            },
+            JOB_FRONT_PT,
         ],
         "projetos": [
             {
@@ -427,7 +410,7 @@ VERSOES = [
         "skills": [
             "<b>Análise:</b> requisitos, regras de negócio, casos de uso, fluxos, documentação",
             "<b>Sistemas:</b> APIs REST, webhooks, modelagem PostgreSQL, multi-tenancy",
-            "<b>Integrações:</b> WhatsApp Cloud API, Meta, CRM, n8n",
+            "<b>Integrações:</b> WhatsApp Cloud API, Meta, CRM, n8n, Bling, Pagar.me, Correios, PDV, delivery",
             "<b>Técnico:</b> TypeScript, React, Node.js, SQL",
         ],
     },
@@ -440,10 +423,10 @@ VERSOES = [
         "cargo": "Systems Analyst",
         "headline": "Requirements  ·  Processes  ·  Integrations  ·  APIs  ·  Data  ·  SaaS",
         "resumo": (
-            "Systems analyst: requirements gathering, business rules, use cases, flows, BPM, documentation, "
-            "data modeling, PostgreSQL, REST APIs, webhooks, integrations, CRM, omnichannel, WhatsApp Cloud API, "
-            "Instagram, Meta, multi-tenant SaaS, permissions, RBAC, queues, automation, n8n, AI, RAG, agents, "
-            "human handoff, metrics, dashboards, TypeScript, React, Node.js, SQL."
+            "Systems analyst: I gather requirements, business rules, use cases, BPM flows, and documentation, "
+            "and I model data in PostgreSQL. I design integrations with REST APIs, webhooks, and n8n automation "
+            "for omnichannel CRM (WhatsApp Cloud API, Instagram, Meta), multi-tenant SaaS, permissions, RBAC, and queues. "
+            "I turn AI, RAG, agents, and human handoff into metrics and dashboards using TypeScript, React, Node.js, and SQL."
         ),
         "jobs": [
             {
@@ -457,15 +440,7 @@ VERSOES = [
                     "Documented automation, AI, and human-handoff rules so delivery stayed unambiguous.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Front-end Developer",
-                "empresa": "Web · Rio de Janeiro, Brazil",
-                "itens": [
-                    "Gathered client needs and turned them into sites, landing pages, and integrations.",
-                    "Specified SEO, performance, and ongoing maintenance work.",
-                ],
-            },
+            JOB_FRONT_EN,
         ],
         "projetos": [
             {
@@ -482,7 +457,7 @@ VERSOES = [
         "skills": [
             "<b>Analysis:</b> requirements, business rules, use cases, flows, documentation",
             "<b>Systems:</b> REST APIs, webhooks, PostgreSQL modeling, multi-tenancy",
-            "<b>Integrations:</b> WhatsApp Cloud API, Meta, CRM, n8n",
+            "<b>Integrations:</b> WhatsApp Cloud API, Meta, CRM, n8n, Bling, Pagar.me, Correios, POS, delivery",
             "<b>Technical:</b> TypeScript, React, Node.js, SQL",
         ],
     },
@@ -495,10 +470,10 @@ VERSOES = [
         "cargo": "Desenvolvedor Full Stack Pleno",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrações",
         "resumo": (
-            "Desenvolvedor full stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, "
-            "PostgreSQL, REST, webhooks, SPA, PWA, WordPress, Git, Docker, AWS, Azure, Vercel, integrações, "
-            "WhatsApp, Instagram, APIs, landing pages, e-commerce, SEO, Lighthouse, Core Web Vitals, "
-            "dashboards, UX/UI, componentes, SaaS, CRM, IA, RAG."
+            "Desenvolvedor full stack em HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS e "
+            "PostgreSQL: entrego SPA, PWA, landing pages, dashboards e componentes com UX/UI, SEO, Lighthouse e "
+            "Core Web Vitals. Integro APIs REST, webhooks, WhatsApp, Instagram e WordPress em SaaS de CRM com IA e RAG, "
+            "e publico em Git, Docker, AWS, Azure e Vercel. Produzi e-commerce, PDV e delivery com Bling, Pagar.me e Correios."
         ),
         "jobs": [
             {
@@ -512,15 +487,7 @@ VERSOES = [
                     "Publiquei e mantive aplicações em Docker/VPS.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Desenvolvedor Front-end",
-                "empresa": "Web · Rio de Janeiro, RJ",
-                "itens": [
-                    "Desenvolvi websites, landing pages e SPAs com HTML, CSS, JavaScript e React.",
-                    "Integrei APIs, corrigi bugs e melhorei performance mobile.",
-                ],
-            },
+            JOB_FRONT_PT,
         ],
         "projetos": [
             {
@@ -543,6 +510,7 @@ VERSOES = [
             "<b>Frontend:</b> React, Next.js, HTML, CSS, JavaScript, TypeScript",
             "<b>Backend:</b> Node.js, NestJS, PostgreSQL, REST, webhooks",
             "<b>Ferramentas:</b> Git, Docker, AWS, Azure, WordPress",
+            "<b>Integrações:</b> Bling, Pagar.me, Correios, e-commerce, PDV, delivery",
         ],
     },
     {
@@ -554,10 +522,11 @@ VERSOES = [
         "cargo": "Full Stack Developer",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrations",
         "resumo": (
-            "Full-stack developer: HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, "
-            "PostgreSQL, REST, webhooks, SPA, PWA, WordPress, Git, Docker, AWS, Azure, Vercel, integrations, "
-            "WhatsApp, Instagram, APIs, landing pages, e-commerce, SEO, Lighthouse, Core Web Vitals, "
-            "dashboards, UX/UI, components, SaaS, CRM, AI, RAG."
+            "Full-stack developer in HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, and "
+            "PostgreSQL: I ship SPA, PWA, landing pages, dashboards, and components with UX/UI, SEO, Lighthouse, "
+            "and Core Web Vitals. I integrate REST APIs, webhooks, WhatsApp, Instagram, and WordPress into CRM SaaS "
+            "with AI and RAG, and I deploy on Git, Docker, AWS, Azure, and Vercel. I built e-commerce, POS, and delivery "
+            "with Bling, Pagar.me, and Correios."
         ),
         "jobs": [
             {
@@ -571,15 +540,7 @@ VERSOES = [
                     "Deployed and maintained apps on Docker/VPS.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Front-end Developer",
-                "empresa": "Web · Rio de Janeiro, Brazil",
-                "itens": [
-                    "Built websites, landing pages, and SPAs with HTML, CSS, JavaScript, and React.",
-                    "Integrated APIs, fixed bugs, and improved mobile performance.",
-                ],
-            },
+            JOB_FRONT_EN,
         ],
         "projetos": [
             {
@@ -602,6 +563,7 @@ VERSOES = [
             "<b>Frontend:</b> React, Next.js, HTML, CSS, JavaScript, TypeScript",
             "<b>Backend:</b> Node.js, NestJS, PostgreSQL, REST, webhooks",
             "<b>Tools:</b> Git, Docker, AWS, Azure, WordPress",
+            "<b>Integrations:</b> Bling, Pagar.me, Correios, e-commerce, POS, delivery",
         ],
     },
 ]

@@ -1,12 +1,12 @@
 # Currículos — Rafael Rangel dos Santos Farinha
 
-Interface estática (GitHub Pages) com versões **PT-BR e EN** por tipo de vaga.
+Interface estática com versões **PT-BR e EN** por tipo de vaga.
 
 ## Abrir
 
-Abra `index.html` ou publique a pasta no GitHub Pages (Settings → Pages → Deploy from branch → `/` root).
-
-O arquivo `.nojekyll` já está na raiz.
+- Produção (Vercel): após o deploy, use a URL `*.vercel.app` do projeto
+- Local: abra `index.html`
+- GitHub Pages: Settings → Pages → Deploy from branch → `/` root (`.nojekyll` já está na raiz)
 
 Regenerar HTML/PDF:
 
