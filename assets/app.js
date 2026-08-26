@@ -7,8 +7,8 @@ var ICONS = {
 };
 
 var META = {
-  "engenheiro-ia": { icon: "ia", blurb: "RAG · embeddings · agents" },
-  "ai-engineer": { icon: "ia", blurb: "RAG · embeddings · agents" },
+  "engenheiro-ia": { icon: "ia", blurb: "RAG · multiagente · tokens · evals" },
+  "ai-engineer": { icon: "ia", blurb: "RAG · multi-agent · tokens · evals" },
   "arquiteto-software": { icon: "arch", blurb: "SaaS · escala · AWS/Azure" },
   "software-architect": { icon: "arch", blurb: "SaaS · scale · AWS/Azure" },
   "engenheiro-software-pleno": { icon: "eng", blurb: "Full stack TypeScript" },
