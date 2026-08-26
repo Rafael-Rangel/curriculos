@@ -44,10 +44,10 @@ VERSOES = [
         "cargo": "Engenheiro de Inteligência Artificial",
         "headline": "AI Engineer  ·  RAG  ·  Embeddings  ·  Agents  ·  LLM APIs  ·  Segurança de modelos",
         "resumo": (
-            "Eu projeto e implemento inteligência artificial dentro de produtos reais: RAG, embeddings, "
-            "agentes, knowledge base e automação de atendimento. Eu conecto LLMs a CRMs, WhatsApp e APIs "
+            "Projeto e implemento inteligência artificial dentro de produtos reais: RAG, embeddings, "
+            "agentes, knowledge base e automação de atendimento. Conecto LLMs a CRMs, WhatsApp e APIs "
             "com isolamento de contexto por tenant, avaliação de custo/latência e guardrails. "
-            "Eu atuo na Genesis Company como Diretor do Departamento de Software e Software Engineer."
+            "Atuo na Genesis Company como Diretor do Departamento de Software e Software Engineer."
         ),
         "jobs": [
             {
@@ -55,11 +55,11 @@ VERSOES = [
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu dirigi a engenharia de IA aplicada a CRM e atendimento: agentes, RAG, FAQ e roteamento.",
-                    "Eu implementei pipelines de RAG (chunking, embeddings, retrieval, rerank e grounding no contexto).",
-                    "Eu modelei bases vetoriais e políticas de atualização da knowledge base por organização.",
-                    "Eu desenhei agentes com function calling, memória de sessão e handoff para humano.",
-                    "Eu apliquei guardrails: prompt injection, PII, isolamento de tenant e controle de tokens.",
+                    "Dirigi a engenharia de IA aplicada a CRM e atendimento: agentes, RAG, FAQ e roteamento.",
+                    "Implementei pipelines de RAG (chunking, embeddings, retrieval, rerank e grounding no contexto).",
+                    "Modelei bases vetoriais e políticas de atualização da knowledge base por organização.",
+                    "Desenhei agentes com function calling, memória de sessão e handoff para humano.",
+                    "Apliquei guardrails: prompt injection, PII, isolamento de tenant e controle de tokens.",
                 ],
             },
             {
@@ -67,8 +67,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu desenvolvi aplicações web e integrei APIs que depois passaram a alimentar fluxos com IA.",
-                    "Eu otimizei performance e SEO técnico em React, Next.js, HTML, CSS e JavaScript.",
+                    "Desenvolvi aplicações web e integrei APIs que depois passaram a alimentar fluxos com IA.",
+                    "Otimizei performance e SEO técnico em React, Next.js, HTML, CSS e JavaScript.",
                 ],
             },
         ],
@@ -105,9 +105,9 @@ VERSOES = [
         "cargo": "AI Engineer",
         "headline": "AI Engineer  ·  RAG  ·  Embeddings  ·  Agents  ·  LLM APIs  ·  Model security",
         "resumo": (
-            "I design and ship AI inside real products: RAG, embeddings, agents, knowledge bases, and "
-            "automated support. I connect LLMs to CRMs, WhatsApp, and APIs with per-tenant context isolation, "
-            "cost/latency evaluation, and guardrails. I currently work at Genesis Company as Software "
+            "Design and ship AI inside real products: RAG, embeddings, agents, knowledge bases, and "
+            "automated support. Connect LLMs to CRMs, WhatsApp, and APIs with per-tenant context isolation, "
+            "cost/latency evaluation, and guardrails. Currently work at Genesis Company as Software "
             "Engineering Director and Software Engineer."
         ),
         "jobs": [
@@ -116,11 +116,11 @@ VERSOES = [
                 "cargo": "Software Engineering Director & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I led applied AI engineering for CRM and support: agents, RAG, FAQ, and routing.",
-                    "I implemented RAG pipelines (chunking, embeddings, retrieval, rerank, and grounded answers).",
-                    "I modeled vector stores and knowledge-base refresh policies per organization.",
-                    "I designed agents with function calling, session memory, and human handoff.",
-                    "I applied guardrails: prompt injection, PII, tenant isolation, and token control.",
+                    "Led applied AI engineering for CRM and support: agents, RAG, FAQ, and routing.",
+                    "Implemented RAG pipelines (chunking, embeddings, retrieval, rerank, and grounded answers).",
+                    "Modeled vector stores and knowledge-base refresh policies per organization.",
+                    "Designed agents with function calling, session memory, and human handoff.",
+                    "Applied guardrails: prompt injection, PII, tenant isolation, and token control.",
                 ],
             },
             {
@@ -128,8 +128,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I built web apps and API integrations that later fed AI-backed workflows.",
-                    "I improved performance and technical SEO with React, Next.js, HTML, CSS, and JavaScript.",
+                    "Built web apps and API integrations that later fed AI-backed workflows.",
+                    "Improved performance and technical SEO with React, Next.js, HTML, CSS, and JavaScript.",
                 ],
             },
         ],
@@ -166,9 +166,9 @@ VERSOES = [
         "cargo": "Arquiteto de Software",
         "headline": "Arquitetura  ·  SaaS multi-tenant  ·  Escalabilidade  ·  Segurança  ·  AWS  ·  Azure",
         "resumo": (
-            "Eu defino arquitetura de sistemas SaaS ponta a ponta: multi-tenancy, APIs, filas, segurança e "
-            "escala horizontal. Eu transformo requisitos de negócio em contratos, limites de isolamento e "
-            "decisões de cloud (AWS e Azure). Eu dirijo o Departamento de Software na Genesis Company."
+            "Defino arquitetura de sistemas SaaS ponta a ponta: multi-tenancy, APIs, filas, segurança e "
+            "escala horizontal. Transformo requisitos de negócio em contratos, limites de isolamento e "
+            "decisões de cloud (AWS e Azure). Dirijo o Departamento de Software na Genesis Company."
         ),
         "jobs": [
             {
@@ -176,11 +176,11 @@ VERSOES = [
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu dirigi as decisões de arquitetura de plataformas SaaS multi-tenant (workspaces, RBAC, isolamento de dados).",
-                    "Eu projetei APIs, webhooks, filas e processamento assíncrono para picos de mensageria (WhatsApp/Meta).",
-                    "Eu defini caminhos de escala: load balancing, múltiplas instâncias, rate limit e circuit breaker.",
-                    "Eu modelei segurança: autenticação, autorização, secrets, OWASP API e isolamento por tenant.",
-                    "Eu orientei deploy em VPS/Docker e desenhei o uso de AWS e Azure (compute, identity, storage).",
+                    "Dirigi as decisões de arquitetura de plataformas SaaS multi-tenant (workspaces, RBAC, isolamento de dados).",
+                    "Projetei APIs, webhooks, filas e processamento assíncrono para picos de mensageria (WhatsApp/Meta).",
+                    "Defini caminhos de escala: load balancing, múltiplas instâncias, rate limit e circuit breaker.",
+                    "Modelei segurança: autenticação, autorização, secrets, OWASP API e isolamento por tenant.",
+                    "Orientei deploy em VPS/Docker e desenhei o uso de AWS e Azure (compute, identity, storage).",
                 ],
             },
             {
@@ -188,8 +188,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu estruturei frontends e integrações com foco em performance, SEO e contratos de API.",
-                    "Eu documentei fluxos e evoluí sistemas de clientes sem quebrar operação.",
+                    "Estruturei frontends e integrações com foco em performance, SEO e contratos de API.",
+                    "Documentei fluxos e evoluí sistemas de clientes sem quebrar operação.",
                 ],
             },
         ],
@@ -221,9 +221,9 @@ VERSOES = [
         "cargo": "Software Architect",
         "headline": "Architecture  ·  Multi-tenant SaaS  ·  Scalability  ·  Security  ·  AWS  ·  Azure",
         "resumo": (
-            "I define end-to-end SaaS architecture: multi-tenancy, APIs, queues, security, and horizontal scale. "
-            "I turn business requirements into contracts, isolation boundaries, and cloud decisions (AWS and Azure). "
-            "I lead the Software Department at Genesis Company."
+            "Define end-to-end SaaS architecture: multi-tenancy, APIs, queues, security, and horizontal scale. "
+            "Turn business requirements into contracts, isolation boundaries, and cloud decisions (AWS and Azure). "
+            "Lead the Software Department at Genesis Company."
         ),
         "jobs": [
             {
@@ -231,11 +231,11 @@ VERSOES = [
                 "cargo": "Software Engineering Director & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I led architecture for multi-tenant SaaS (workspaces, RBAC, data isolation).",
-                    "I designed APIs, webhooks, queues, and async processing for messaging spikes (WhatsApp/Meta).",
-                    "I defined scale paths: load balancing, multi-instance, rate limiting, and circuit breaking.",
-                    "I modeled security: authn/authz, secrets, OWASP API, and per-tenant isolation.",
-                    "I guided Docker/VPS delivery and cloud usage on AWS and Azure (compute, identity, storage).",
+                    "Led architecture for multi-tenant SaaS (workspaces, RBAC, data isolation).",
+                    "Designed APIs, webhooks, queues, and async processing for messaging spikes (WhatsApp/Meta).",
+                    "Defined scale paths: load balancing, multi-instance, rate limiting, and circuit breaking.",
+                    "Modeled security: authn/authz, secrets, OWASP API, and per-tenant isolation.",
+                    "Guided Docker/VPS delivery and cloud usage on AWS and Azure (compute, identity, storage).",
                 ],
             },
             {
@@ -243,8 +243,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I structured frontends and integrations with performance, SEO, and API contracts in mind.",
-                    "I documented flows and evolved client systems without breaking operations.",
+                    "Structured frontends and integrations with performance, SEO, and API contracts in mind.",
+                    "Documented flows and evolved client systems without breaking operations.",
                 ],
             },
         ],
@@ -276,9 +276,9 @@ VERSOES = [
         "cargo": "Engenheiro de Software Pleno",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "Eu desenvolvo software full stack em TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, "
-            "APIs REST e webhooks. Eu entrego produto com qualidade de engenharia — testes mentais de contrato, "
-            "performance e operação. Eu atuo na Genesis Company na liderança técnica e na implementação."
+            "Desenvolvo software full stack em TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, "
+            "APIs REST e webhooks. Entrego produto com qualidade de engenharia — testes mentais de contrato, "
+            "performance e operação. Atuo na Genesis Company na liderança técnica e na implementação."
         ),
         "jobs": [
             {
@@ -286,10 +286,10 @@ VERSOES = [
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu desenvolvi plataformas SaaS multi-tenant (CRM, inbox, permissões, dashboards) em React e Node.js.",
-                    "Eu implementei APIs REST, webhooks e filas para WhatsApp, Instagram e Meta Cloud API.",
-                    "Eu integrei IA (RAG e agentes) sem acoplar o domínio de negócio ao provedor do modelo.",
-                    "Eu acompanhei performance (Core Web Vitals) e evolução contínua dos sistemas.",
+                    "Desenvolvi plataformas SaaS multi-tenant (CRM, inbox, permissões, dashboards) em React e Node.js.",
+                    "Implementei APIs REST, webhooks e filas para WhatsApp, Instagram e Meta Cloud API.",
+                    "Integrei IA (RAG e agentes) sem acoplar o domínio de negócio ao provedor do modelo.",
+                    "Acompanhei performance (Core Web Vitals) e evolução contínua dos sistemas.",
                 ],
             },
             {
@@ -297,8 +297,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu desenvolvi sites, landing pages e SPAs com HTML, CSS, JavaScript, React e Next.js.",
-                    "Eu integrei APIs, corrigi falhas e otimizei Lighthouse/SEO técnico.",
+                    "Desenvolvi sites, landing pages e SPAs com HTML, CSS, JavaScript, React e Next.js.",
+                    "Integrei APIs, corrigi falhas e otimizei Lighthouse/SEO técnico.",
                 ],
             },
         ],
@@ -330,9 +330,9 @@ VERSOES = [
         "cargo": "Software Engineer",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "I build full-stack software in TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, REST APIs, "
-            "and webhooks. I ship with engineering quality — contracts, performance, and operations. "
-            "I work at Genesis Company in technical leadership and hands-on implementation."
+            "Build full-stack software in TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, REST APIs, "
+            "and webhooks. Ship with engineering quality — contracts, performance, and operations. "
+            "Work at Genesis Company in technical leadership and hands-on implementation."
         ),
         "jobs": [
             {
@@ -340,10 +340,10 @@ VERSOES = [
                 "cargo": "Software Engineering Director & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I built multi-tenant SaaS platforms (CRM, inbox, permissions, dashboards) with React and Node.js.",
-                    "I implemented REST APIs, webhooks, and queues for WhatsApp, Instagram, and Meta Cloud API.",
-                    "I integrated AI (RAG and agents) without coupling domain logic to a single model vendor.",
-                    "I tracked Core Web Vitals and continuous system evolution.",
+                    "Built multi-tenant SaaS platforms (CRM, inbox, permissions, dashboards) with React and Node.js.",
+                    "Implemented REST APIs, webhooks, and queues for WhatsApp, Instagram, and Meta Cloud API.",
+                    "Integrated AI (RAG and agents) without coupling domain logic to a single model vendor.",
+                    "Tracked Core Web Vitals and continuous system evolution.",
                 ],
             },
             {
@@ -351,8 +351,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I developed sites, landing pages, and SPAs with HTML, CSS, JavaScript, React, and Next.js.",
-                    "I integrated APIs, fixed defects, and improved Lighthouse/technical SEO.",
+                    "Developed sites, landing pages, and SPAs with HTML, CSS, JavaScript, React, and Next.js.",
+                    "Integrated APIs, fixed defects, and improved Lighthouse/technical SEO.",
                 ],
             },
         ],
@@ -384,9 +384,9 @@ VERSOES = [
         "cargo": "Analista de Sistemas",
         "headline": "Requisitos  ·  Processos  ·  Integrações  ·  APIs  ·  Dados  ·  SaaS",
         "resumo": (
-            "Eu analiso processos, levanto requisitos e transformo regras de negócio em especificações "
-            "técnicas executáveis. Eu mapeio integrações, eventos, dados e riscos de sistemas SaaS. "
-            "Eu atuo na Genesis Company ligando negócio, produto e engenharia."
+            "Analiso processos, levanto requisitos e transformo regras de negócio em especificações "
+            "técnicas executáveis. Mapeio integrações, eventos, dados e riscos de sistemas SaaS. "
+            "Atuo na Genesis Company ligando negócio, produto e engenharia."
         ),
         "jobs": [
             {
@@ -394,10 +394,10 @@ VERSOES = [
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu levantei requisitos de CRM, atendimento e multi-tenancy e os traduzi em fluxos e contratos de API.",
-                    "Eu analisei integrações WhatsApp/Meta/Instagram: webhooks, filas, falhas e regras de horário.",
-                    "Eu modelei dados de organizações, permissões, conversas, leads e métricas.",
-                    "Eu documentei regras de automação, IA e handoff humano para o time executar com clareza.",
+                    "Levantei requisitos de CRM, atendimento e multi-tenancy e os traduzi em fluxos e contratos de API.",
+                    "Analisei integrações WhatsApp/Meta/Instagram: webhooks, filas, falhas e regras de horário.",
+                    "Modelei dados de organizações, permissões, conversas, leads e métricas.",
+                    "Documentei regras de automação, IA e handoff humano para o time executar com clareza.",
                 ],
             },
             {
@@ -405,8 +405,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu levantei necessidades de clientes e transformei em sites, landing pages e integrações.",
-                    "Eu especifiquei ajustes de SEO, performance e manutenção contínua.",
+                    "Levantei necessidades de clientes e transformei em sites, landing pages e integrações.",
+                    "Especifiquei ajustes de SEO, performance e manutenção contínua.",
                 ],
             },
         ],
@@ -438,8 +438,8 @@ VERSOES = [
         "cargo": "Systems Analyst",
         "headline": "Requirements  ·  Processes  ·  Integrations  ·  APIs  ·  Data  ·  SaaS",
         "resumo": (
-            "I analyze processes, gather requirements, and turn business rules into executable technical specs. "
-            "I map integrations, events, data, and risk in SaaS systems. I work at Genesis Company connecting "
+            "Analyze processes, gather requirements, and turn business rules into executable technical specs. "
+            "Map integrations, events, data, and risk in SaaS systems. Work at Genesis Company connecting "
             "business, product, and engineering."
         ),
         "jobs": [
@@ -448,10 +448,10 @@ VERSOES = [
                 "cargo": "Software Engineering Director & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I gathered CRM, support, and multi-tenancy requirements and translated them into flows and API contracts.",
-                    "I analyzed WhatsApp/Meta/Instagram integrations: webhooks, queues, failure modes, and business hours.",
-                    "I modeled data for organizations, permissions, conversations, leads, and metrics.",
-                    "I documented automation, AI, and human-handoff rules so delivery stayed unambiguous.",
+                    "Gathered CRM, support, and multi-tenancy requirements and translated them into flows and API contracts.",
+                    "Analyzed WhatsApp/Meta/Instagram integrations: webhooks, queues, failure modes, and business hours.",
+                    "Modeled data for organizations, permissions, conversations, leads, and metrics.",
+                    "Documented automation, AI, and human-handoff rules so delivery stayed unambiguous.",
                 ],
             },
             {
@@ -459,8 +459,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I gathered client needs and turned them into sites, landing pages, and integrations.",
-                    "I specified SEO, performance, and ongoing maintenance work.",
+                    "Gathered client needs and turned them into sites, landing pages, and integrations.",
+                    "Specified SEO, performance, and ongoing maintenance work.",
                 ],
             },
         ],
@@ -492,8 +492,8 @@ VERSOES = [
         "cargo": "Desenvolvedor Full Stack Pleno",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrações",
         "resumo": (
-            "Eu desenvolvo aplicações web full stack com TypeScript, React, Next.js, Node.js e PostgreSQL. "
-            "Eu entrego interface, API, integração e publish. Eu trabalho na Genesis Company construindo "
+            "Desenvolvo aplicações web full stack com TypeScript, React, Next.js, Node.js e PostgreSQL. "
+            "Entrego interface, API, integração e publish. Trabalho na Genesis Company construindo "
             "produtos SaaS e canais de comunicação."
         ),
         "jobs": [
@@ -502,10 +502,10 @@ VERSOES = [
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu desenvolvi CRM e painéis administrativos em React/Next.js com TypeScript.",
-                    "Eu implementei backends Node.js/NestJS, APIs REST e webhooks de WhatsApp e Instagram.",
-                    "Eu integrei recursos de IA (agentes e RAG) em fluxos de atendimento.",
-                    "Eu publiquei e mantive aplicações em Docker/VPS.",
+                    "Desenvolvi CRM e painéis administrativos em React/Next.js com TypeScript.",
+                    "Implementei backends Node.js/NestJS, APIs REST e webhooks de WhatsApp e Instagram.",
+                    "Integrei recursos de IA (agentes e RAG) em fluxos de atendimento.",
+                    "Publiquei e mantive aplicações em Docker/VPS.",
                 ],
             },
             {
@@ -513,8 +513,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, RJ",
                 "itens": [
-                    "Eu desenvolvi websites, landing pages e SPAs com HTML, CSS, JavaScript e React.",
-                    "Eu integrei APIs, corrigi bugs e melhorei performance mobile.",
+                    "Desenvolvi websites, landing pages e SPAs com HTML, CSS, JavaScript e React.",
+                    "Integrei APIs, corrigi bugs e melhorei performance mobile.",
                 ],
             },
         ],
@@ -550,8 +550,8 @@ VERSOES = [
         "cargo": "Full Stack Developer",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrations",
         "resumo": (
-            "I build full-stack web applications with TypeScript, React, Next.js, Node.js, and PostgreSQL. "
-            "I deliver UI, API, integration, and deploy. I work at Genesis Company building SaaS products "
+            "Build full-stack web applications with TypeScript, React, Next.js, Node.js, and PostgreSQL. "
+            "Deliver UI, API, integration, and deploy. Work at Genesis Company building SaaS products "
             "and communication channels."
         ),
         "jobs": [
@@ -560,10 +560,10 @@ VERSOES = [
                 "cargo": "Software Engineering Director & Software Engineer",
                 "empresa": "Genesis Company · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I developed CRM and admin dashboards in React/Next.js with TypeScript.",
-                    "I implemented Node.js/NestJS backends, REST APIs, and WhatsApp/Instagram webhooks.",
-                    "I integrated AI features (agents and RAG) into support flows.",
-                    "I deployed and maintained apps on Docker/VPS.",
+                    "Developed CRM and admin dashboards in React/Next.js with TypeScript.",
+                    "Implemented Node.js/NestJS backends, REST APIs, and WhatsApp/Instagram webhooks.",
+                    "Integrated AI features (agents and RAG) into support flows.",
+                    "Deployed and maintained apps on Docker/VPS.",
                 ],
             },
             {
@@ -571,8 +571,8 @@ VERSOES = [
                 "cargo": "Web Developer / Software Developer",
                 "empresa": "Webmaker · Rio de Janeiro, Brazil",
                 "itens": [
-                    "I built websites, landing pages, and SPAs with HTML, CSS, JavaScript, and React.",
-                    "I integrated APIs, fixed bugs, and improved mobile performance.",
+                    "Built websites, landing pages, and SPAs with HTML, CSS, JavaScript, and React.",
+                    "Integrated APIs, fixed bugs, and improved mobile performance.",
                 ],
             },
         ],
