@@ -340,7 +340,7 @@ VERSOES = [
                 "itens": [
                     "Built multi-tenant SaaS platforms (CRM, inbox, permissions, dashboards) with React and Node.js.",
                     "Implemented REST APIs, webhooks, and queues for WhatsApp, Instagram, and Meta Cloud API.",
-                    "Integrated AI (RAG and agents) without coupling domain logic to a single model vendor.",
+                    "Integrated AI in product: RAG, system prompts, agents, and tool calling without coupling to one vendor.",
                     "Tracked Core Web Vitals and continuous system evolution.",
                 ],
             },
@@ -560,7 +560,7 @@ VERSOES = [
                 "itens": [
                     "Developed CRM and admin dashboards in React/Next.js with TypeScript.",
                     "Implemented Node.js/NestJS backends, REST APIs, and WhatsApp/Instagram webhooks.",
-                    "Integrated AI features (agents and RAG) into support flows.",
+                    "Integrated AI features (agents, RAG, system prompts) into support flows.",
                     "Deployed and maintained apps on Docker/VPS.",
                 ],
             },
