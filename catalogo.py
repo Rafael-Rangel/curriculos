@@ -65,14 +65,6 @@ VERSOES = [
                     "Escalei inferência e filas por tenant: isolamento de contexto, ACL na knowledge base, streaming, retries e observabilidade LLMOps.",
                 ],
             },
-            {
-                "periodo": "Jul 2024 – Jul 2025",
-                "cargo": "Web Developer / Software Developer",
-                "empresa": "Web · Rio de Janeiro, RJ",
-                "itens": [
-                    "Desenvolvi aplicações e APIs que passaram a alimentar pipelines de RAG e agentes.",
-                ],
-            },
         ],
         "projetos": [
             {
