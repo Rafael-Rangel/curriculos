@@ -298,6 +298,10 @@ body {
   padding: 32px;
 }
 
+.empty[hidden] {
+  display: none !important;
+}
+
 .empty em {
   font-family: "Instrument Serif", Georgia, serif;
   font-style: italic;

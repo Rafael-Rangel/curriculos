@@ -89,6 +89,7 @@ function abrir(item) {
     el.classList.toggle("is-on", el.getAttribute("href") === item.html);
   });
   document.getElementById("empty").hidden = true;
+  document.getElementById("empty").setAttribute("aria-hidden", "true");
   var frame = document.getElementById("frame");
   frame.hidden = false;
   frame.src = item.html;
