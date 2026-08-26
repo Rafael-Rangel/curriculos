@@ -44,16 +44,19 @@ VERSOES = [
         "cargo": "Engenheiro de Inteligência Artificial",
         "headline": "AI Engineer  ·  RAG  ·  Multiagente  ·  System prompt  ·  Economia de tokens  ·  Evals  ·  Escala",
         "resumo": (
-            "Projeto e coloco em produção sistemas de LLM: RAG, embeddings, multiagentes, system prompts "
-            "e knowledge base. Otimizo economia de tokens, precisão de tool calling e escala de inferência "
-            "em SaaS multi-tenant (CRM, WhatsApp, APIs). Atuo na Genesis Company como Diretor do "
-            "Departamento de Software e Software Engineer."
+            "Engenheiro de IA e software: LLM, RAG, embeddings, hybrid search, BM25, rerank, grounding, "
+            "citações, knowledge base, multiagente, orquestração, planner/executor, tool calling, function calling, "
+            "system prompt, context engineering, prompt caching, token budget, economia de tokens, model routing, "
+            "streaming, evals, faithfulness, hallucination control, LLM-as-judge, human-in-the-loop, precisão de agentes. "
+            "SaaS multi-tenant, CRM, omnichannel, WhatsApp Cloud API, Instagram, Meta, webhooks, APIs REST, filas, "
+            "escala horizontal, load balancing, isolamento de tenant, ACL, RBAC, pgvector, PostgreSQL, TypeScript, "
+            "Python, React, Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII, prompt injection."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Atual",
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, RJ",
+                "empresa": "SaaS · Rio de Janeiro, RJ",
                 "itens": [
                     "Dirigi a engenharia de IA em CRM e atendimento: orquestração multiagente, tool calling, planner/executor e human-in-the-loop.",
                     "Implementei RAG ponta a ponta: ingestão, chunking, embeddings, hybrid search, rerank, grounding, citações e fidelidade da resposta.",
@@ -65,7 +68,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, RJ",
+                "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi aplicações e APIs que passaram a alimentar pipelines de RAG e agentes.",
                 ],
@@ -91,8 +94,7 @@ VERSOES = [
         "skills": [
             "<b>IA:</b> RAG, embeddings, hybrid search, rerank, multi-agent, tool calling, function calling, system prompt, context engineering, evals",
             "<b>Tokens e qualidade:</b> token budget, prompt caching, model routing, streaming, faithfulness, hallucination control, LLM-as-judge",
-            "<b>Escala:</b> filas, processamento assíncrono, pgvector, PostgreSQL, isolamento de tenant, ACL, observabilidade LLMOps",
-            "<b>Stack e cloud:</b> Python, TypeScript, OpenAI, Node.js, NestJS, AWS, Azure, Docker, guardrails, PII, prompt injection",
+            "<b>Escala e cloud:</b> filas, pgvector, PostgreSQL, tenant ACL, LLMOps, Python, TypeScript, OpenAI, Node.js, NestJS, AWS, Azure, Docker, guardrails, PII, prompt injection",
         ],
     },
     {
@@ -104,16 +106,19 @@ VERSOES = [
         "cargo": "AI Engineer",
         "headline": "AI Engineer  ·  RAG  ·  Multi-agent  ·  System prompt  ·  Token economics  ·  Evals  ·  Scale",
         "resumo": (
-            "Design and ship production LLM systems: RAG, embeddings, multi-agent orchestration, system prompts, "
-            "and knowledge bases. Optimize token economics, tool-calling precision, and inference scale in "
-            "multi-tenant SaaS (CRM, WhatsApp, APIs). Work at Genesis Company as Software Engineering Director "
-            "and Software Engineer."
+            "AI and software engineer: LLM, RAG, embeddings, hybrid search, BM25, rerank, grounding, citations, "
+            "knowledge base, multi-agent orchestration, planner/executor, tool calling, function calling, "
+            "system prompt, context engineering, prompt caching, token budget, token economics, model routing, "
+            "streaming, evals, faithfulness, hallucination control, LLM-as-judge, human-in-the-loop, agent precision. "
+            "Multi-tenant SaaS, CRM, omnichannel, WhatsApp Cloud API, Instagram, Meta, webhooks, REST APIs, queues, "
+            "horizontal scale, load balancing, tenant isolation, ACL, RBAC, pgvector, PostgreSQL, TypeScript, "
+            "Python, React, Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII, prompt injection."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Present",
                 "cargo": "Software Engineering Director & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, Brazil",
+                "empresa": "SaaS · Rio de Janeiro, Brazil",
                 "itens": [
                     "Led AI engineering for CRM and support: multi-agent orchestration, tool calling, planner/executor, and human-in-the-loop.",
                     "Shipped end-to-end RAG: ingestion, chunking, embeddings, hybrid search, rerank, grounding, citations, and answer faithfulness.",
@@ -125,7 +130,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, Brazil",
+                "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Built apps and APIs that later fed RAG pipelines and agents.",
                 ],
@@ -164,15 +169,17 @@ VERSOES = [
         "cargo": "Arquiteto de Software",
         "headline": "Arquitetura  ·  SaaS multi-tenant  ·  Escalabilidade  ·  Segurança  ·  AWS  ·  Azure",
         "resumo": (
-            "Defino arquitetura de sistemas SaaS ponta a ponta: multi-tenancy, APIs, filas, segurança e "
-            "escala horizontal. Transformo requisitos de negócio em contratos, limites de isolamento e "
-            "decisões de cloud (AWS e Azure). Dirijo o Departamento de Software na Genesis Company."
+            "Arquiteto de software: SaaS, multi-tenancy, workspaces, RBAC, isolamento de dados, APIs REST, "
+            "webhooks, event-driven, filas, processamento assíncrono, microserviços, modularização, C4, "
+            "escala horizontal, load balancing, rate limit, circuit breaker, observabilidade, métricas. "
+            "Segurança: authn, authz, OWASP API, secrets, PII. Cloud: AWS, Azure, Docker, VPS, CI/CD, "
+            "PostgreSQL, TypeScript, Node.js, NestJS, React, Next.js, WhatsApp Cloud API, Meta, CRM, IA, RAG."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Atual",
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, RJ",
+                "empresa": "SaaS · Rio de Janeiro, RJ",
                 "itens": [
                     "Dirigi as decisões de arquitetura de plataformas SaaS multi-tenant (workspaces, RBAC, isolamento de dados).",
                     "Projetei APIs, webhooks, filas e processamento assíncrono para picos de mensageria (WhatsApp/Meta).",
@@ -184,7 +191,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, RJ",
+                "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Estruturei frontends e integrações com foco em performance, SEO e contratos de API.",
                     "Documentei fluxos e evoluí sistemas de clientes sem quebrar operação.",
@@ -219,15 +226,17 @@ VERSOES = [
         "cargo": "Software Architect",
         "headline": "Architecture  ·  Multi-tenant SaaS  ·  Scalability  ·  Security  ·  AWS  ·  Azure",
         "resumo": (
-            "Define end-to-end SaaS architecture: multi-tenancy, APIs, queues, security, and horizontal scale. "
-            "Turn business requirements into contracts, isolation boundaries, and cloud decisions (AWS and Azure). "
-            "Lead the Software Department at Genesis Company."
+            "Software architect: SaaS, multi-tenancy, workspaces, RBAC, data isolation, REST APIs, webhooks, "
+            "event-driven, queues, async processing, microservices, modularization, C4, horizontal scale, "
+            "load balancing, rate limiting, circuit breaker, observability, metrics. Security: authn, authz, "
+            "OWASP API, secrets, PII. Cloud: AWS, Azure, Docker, VPS, CI/CD, PostgreSQL, TypeScript, Node.js, "
+            "NestJS, React, Next.js, WhatsApp Cloud API, Meta, CRM, AI, RAG."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Present",
                 "cargo": "Software Engineering Director & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, Brazil",
+                "empresa": "SaaS · Rio de Janeiro, Brazil",
                 "itens": [
                     "Led architecture for multi-tenant SaaS (workspaces, RBAC, data isolation).",
                     "Designed APIs, webhooks, queues, and async processing for messaging spikes (WhatsApp/Meta).",
@@ -239,7 +248,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, Brazil",
+                "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Structured frontends and integrations with performance, SEO, and API contracts in mind.",
                     "Documented flows and evolved client systems without breaking operations.",
@@ -274,15 +283,16 @@ VERSOES = [
         "cargo": "Engenheiro de Software Pleno",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "Desenvolvo software full stack em TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, "
-            "APIs REST e webhooks. Entrego produto com qualidade de engenharia — testes mentais de contrato, "
-            "performance e operação. Atuo na Genesis Company na liderança técnica e na implementação."
+            "Engenheiro de software full stack: TypeScript, JavaScript, Python, React, Next.js, Node.js, NestJS, "
+            "PostgreSQL, SQL, APIs REST, webhooks, filas, SaaS multi-tenant, CRM, dashboards, SPA, PWA, "
+            "WhatsApp Cloud API, Instagram, Meta, n8n, Docker, AWS, Azure, Git, Core Web Vitals, Lighthouse, "
+            "RAG, system prompt, agentes, tool calling, performance, SEO técnico, UX, design system."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Atual",
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, RJ",
+                "empresa": "SaaS · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi plataformas SaaS multi-tenant (CRM, inbox, permissões, dashboards) em React e Node.js.",
                     "Implementei APIs REST, webhooks e filas para WhatsApp, Instagram e Meta Cloud API.",
@@ -293,7 +303,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, RJ",
+                "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi sites, landing pages e SPAs com HTML, CSS, JavaScript, React e Next.js.",
                     "Integrei APIs, corrigi falhas e otimizei Lighthouse/SEO técnico.",
@@ -328,15 +338,16 @@ VERSOES = [
         "cargo": "Software Engineer",
         "headline": "Full Stack  ·  TypeScript  ·  React  ·  Node.js  ·  NestJS  ·  PostgreSQL  ·  APIs",
         "resumo": (
-            "Build full-stack software in TypeScript: React/Next.js, Node.js/NestJS, PostgreSQL, REST APIs, "
-            "and webhooks. Ship with engineering quality — contracts, performance, and operations. "
-            "Work at Genesis Company in technical leadership and hands-on implementation."
+            "Full-stack software engineer: TypeScript, JavaScript, Python, React, Next.js, Node.js, NestJS, "
+            "PostgreSQL, SQL, REST APIs, webhooks, queues, multi-tenant SaaS, CRM, dashboards, SPA, PWA, "
+            "WhatsApp Cloud API, Instagram, Meta, n8n, Docker, AWS, Azure, Git, Core Web Vitals, Lighthouse, "
+            "RAG, system prompt, agents, tool calling, performance, technical SEO, UX, design systems."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Present",
                 "cargo": "Software Engineering Director & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, Brazil",
+                "empresa": "SaaS · Rio de Janeiro, Brazil",
                 "itens": [
                     "Built multi-tenant SaaS platforms (CRM, inbox, permissions, dashboards) with React and Node.js.",
                     "Implemented REST APIs, webhooks, and queues for WhatsApp, Instagram, and Meta Cloud API.",
@@ -347,7 +358,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, Brazil",
+                "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Developed sites, landing pages, and SPAs with HTML, CSS, JavaScript, React, and Next.js.",
                     "Integrated APIs, fixed defects, and improved Lighthouse/technical SEO.",
@@ -382,15 +393,16 @@ VERSOES = [
         "cargo": "Analista de Sistemas",
         "headline": "Requisitos  ·  Processos  ·  Integrações  ·  APIs  ·  Dados  ·  SaaS",
         "resumo": (
-            "Analiso processos, levanto requisitos e transformo regras de negócio em especificações "
-            "técnicas executáveis. Mapeio integrações, eventos, dados e riscos de sistemas SaaS. "
-            "Atuo na Genesis Company ligando negócio, produto e engenharia."
+            "Analista de sistemas: levantamento de requisitos, regras de negócio, casos de uso, fluxos, BPM, "
+            "documentação, modelagem de dados, PostgreSQL, APIs REST, webhooks, integrações, CRM, omnichannel, "
+            "WhatsApp Cloud API, Instagram, Meta, SaaS multi-tenant, permissões, RBAC, filas, automações, n8n, "
+            "IA, RAG, agentes, handoff humano, métricas, dashboards, TypeScript, React, Node.js, SQL."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Atual",
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, RJ",
+                "empresa": "SaaS · Rio de Janeiro, RJ",
                 "itens": [
                     "Levantei requisitos de CRM, atendimento e multi-tenancy e os traduzi em fluxos e contratos de API.",
                     "Analisei integrações WhatsApp/Meta/Instagram: webhooks, filas, falhas e regras de horário.",
@@ -401,7 +413,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, RJ",
+                "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Levantei necessidades de clientes e transformei em sites, landing pages e integrações.",
                     "Especifiquei ajustes de SEO, performance e manutenção contínua.",
@@ -436,15 +448,16 @@ VERSOES = [
         "cargo": "Systems Analyst",
         "headline": "Requirements  ·  Processes  ·  Integrations  ·  APIs  ·  Data  ·  SaaS",
         "resumo": (
-            "Analyze processes, gather requirements, and turn business rules into executable technical specs. "
-            "Map integrations, events, data, and risk in SaaS systems. Work at Genesis Company connecting "
-            "business, product, and engineering."
+            "Systems analyst: requirements gathering, business rules, use cases, flows, BPM, documentation, "
+            "data modeling, PostgreSQL, REST APIs, webhooks, integrations, CRM, omnichannel, WhatsApp Cloud API, "
+            "Instagram, Meta, multi-tenant SaaS, permissions, RBAC, queues, automation, n8n, AI, RAG, agents, "
+            "human handoff, metrics, dashboards, TypeScript, React, Node.js, SQL."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Present",
                 "cargo": "Software Engineering Director & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, Brazil",
+                "empresa": "SaaS · Rio de Janeiro, Brazil",
                 "itens": [
                     "Gathered CRM, support, and multi-tenancy requirements and translated them into flows and API contracts.",
                     "Analyzed WhatsApp/Meta/Instagram integrations: webhooks, queues, failure modes, and business hours.",
@@ -455,7 +468,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, Brazil",
+                "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Gathered client needs and turned them into sites, landing pages, and integrations.",
                     "Specified SEO, performance, and ongoing maintenance work.",
@@ -490,15 +503,16 @@ VERSOES = [
         "cargo": "Desenvolvedor Full Stack Pleno",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrações",
         "resumo": (
-            "Desenvolvo aplicações web full stack com TypeScript, React, Next.js, Node.js e PostgreSQL. "
-            "Entrego interface, API, integração e publish. Trabalho na Genesis Company construindo "
-            "produtos SaaS e canais de comunicação."
+            "Desenvolvedor full stack: HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, "
+            "PostgreSQL, REST, webhooks, SPA, PWA, WordPress, Git, Docker, AWS, Azure, Vercel, integrações, "
+            "WhatsApp, Instagram, APIs, landing pages, e-commerce, SEO, Lighthouse, Core Web Vitals, "
+            "dashboards, UX/UI, componentes, SaaS, CRM, IA, RAG."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Atual",
                 "cargo": "Diretor do Departamento de Software & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, RJ",
+                "empresa": "SaaS · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi CRM e painéis administrativos em React/Next.js com TypeScript.",
                     "Implementei backends Node.js/NestJS, APIs REST e webhooks de WhatsApp e Instagram.",
@@ -509,7 +523,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, RJ",
+                "empresa": "Web · Rio de Janeiro, RJ",
                 "itens": [
                     "Desenvolvi websites, landing pages e SPAs com HTML, CSS, JavaScript e React.",
                     "Integrei APIs, corrigi bugs e melhorei performance mobile.",
@@ -548,15 +562,16 @@ VERSOES = [
         "cargo": "Full Stack Developer",
         "headline": "React  ·  Next.js  ·  Node.js  ·  TypeScript  ·  PostgreSQL  ·  Integrations",
         "resumo": (
-            "Build full-stack web applications with TypeScript, React, Next.js, Node.js, and PostgreSQL. "
-            "Deliver UI, API, integration, and deploy. Work at Genesis Company building SaaS products "
-            "and communication channels."
+            "Full-stack developer: HTML, CSS, JavaScript, TypeScript, React, Next.js, Node.js, NestJS, "
+            "PostgreSQL, REST, webhooks, SPA, PWA, WordPress, Git, Docker, AWS, Azure, Vercel, integrations, "
+            "WhatsApp, Instagram, APIs, landing pages, e-commerce, SEO, Lighthouse, Core Web Vitals, "
+            "dashboards, UX/UI, components, SaaS, CRM, AI, RAG."
         ),
         "jobs": [
             {
                 "periodo": "Jul 2025 – Present",
                 "cargo": "Software Engineering Director & Software Engineer",
-                "empresa": "Genesis Company · Rio de Janeiro, Brazil",
+                "empresa": "SaaS · Rio de Janeiro, Brazil",
                 "itens": [
                     "Developed CRM and admin dashboards in React/Next.js with TypeScript.",
                     "Implemented Node.js/NestJS backends, REST APIs, and WhatsApp/Instagram webhooks.",
@@ -567,7 +582,7 @@ VERSOES = [
             {
                 "periodo": "Jul 2024 – Jul 2025",
                 "cargo": "Web Developer / Software Developer",
-                "empresa": "Webmaker · Rio de Janeiro, Brazil",
+                "empresa": "Web · Rio de Janeiro, Brazil",
                 "itens": [
                     "Built websites, landing pages, and SPAs with HTML, CSS, JavaScript, and React.",
                     "Integrated APIs, fixed bugs, and improved mobile performance.",
