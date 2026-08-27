@@ -53,6 +53,32 @@ JOB_FRONT_EN = {
     ],
 }
 
+PROJETOS_PT = [
+    {
+        "nome": "KoruVision CRM",
+        "url": "https://github.com/Rafael-Rangel/koruvision-landing",
+        "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
+    },
+    {
+        "nome": "Icare Finance",
+        "url": "https://sistem-ifood.vercel.app",
+        "desc": "Painel de gestão para restaurante: pedidos, pagamentos, repasses iFood, cardápio, relatórios e permissões.",
+    },
+]
+
+PROJETOS_EN = [
+    {
+        "nome": "KoruVision CRM",
+        "url": "https://github.com/Rafael-Rangel/koruvision-landing",
+        "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
+    },
+    {
+        "nome": "Icare Finance",
+        "url": "https://sistem-ifood.vercel.app",
+        "desc": "Restaurant ops dashboard: orders, payments, iFood payouts, menu, reports, and access control.",
+    },
+]
+
 # slug, pasta, idioma, label na UI, cargo, headline, resumo, jobs, projetos, skills
 VERSOES = [
     {
@@ -65,13 +91,13 @@ VERSOES = [
         "headline": "AI Engineer  ·  RAG  ·  Multiagente  ·  System prompt  ·  Economia de tokens  ·  Evals  ·  Escala",
         "resumo": (
             "Engenheiro de IA e software: construo pipelines de LLM e RAG com embeddings, hybrid search, BM25, "
-            "rerank, grounding, citações e knowledge base. Orquestro sistemas multiagente (planner/executor) com "
-            "tool calling, function calling, system prompt, context engineering, prompt caching, token budget, "
-            "economia de tokens, model routing e streaming, e meço precisão com evals, faithfulness, hallucination "
-            "control, LLM-as-judge e human-in-the-loop. Entrego isso em SaaS multi-tenant de CRM omnichannel "
-            "(WhatsApp Cloud API, Instagram, Meta), com webhooks, APIs REST, filas, escala horizontal, load balancing, "
-            "isolamento de tenant, ACL, RBAC, pgvector e PostgreSQL — stack TypeScript, Python, React, Next.js, "
-            "Node.js, NestJS, Docker, AWS, Azure, LLMOps, guardrails, PII e prompt injection."
+            "rerank, grounding, citações e knowledge base. Orquestro multiagente (planner/executor) com tool calling, "
+            "function calling, system prompt, context engineering, prompt caching, token budget, economia de tokens, "
+            "model routing e streaming; meço precisão com evals, faithfulness, hallucination control, LLM-as-judge "
+            "e human-in-the-loop. Entrego em SaaS multi-tenant de CRM omnichannel (WhatsApp Cloud API, Instagram, Meta), "
+            "com webhooks, APIs REST, filas, escala horizontal, load balancing, isolamento de tenant, ACL, RBAC, "
+            "pgvector, PostgreSQL, TypeScript, Python, React, Next.js, Node.js, NestJS, Docker, AWS, Azure, LLMOps, "
+            "guardrails, PII e prompt injection."
         ),
         "jobs": [
             {
@@ -88,23 +114,7 @@ VERSOES = [
             },
             JOB_FRONT_PT,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Rubi 2.0 / Conversation AI",
-                "url": "https://github.com/Rafael-Rangel/rubi-teste",
-                "desc": "Agentes especializados, knowledge base, evals de precisão e handoff para humano.",
-            },
-            {
-                "nome": "Inglês conversacional para Devs",
-                "url": "https://github.com/Rafael-Rangel/ingles-conversacional-devs",
-                "desc": "Tutor com embeddings, context window controlada e prática de system/user prompt.",
-            },
-        ],
+        "projetos": PROJETOS_PT,
         "skills": [
             "<b>IA:</b> RAG, embeddings, hybrid search, rerank, multi-agent, tool calling, function calling, system prompt, context engineering, evals",
             "<b>Tokens e qualidade:</b> token budget, prompt caching, model routing, streaming, faithfulness, hallucination control, LLM-as-judge",
@@ -144,23 +154,7 @@ VERSOES = [
             },
             JOB_FRONT_EN,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Rubi 2.0 / Conversation AI",
-                "url": "https://github.com/Rafael-Rangel/rubi-teste",
-                "desc": "Specialized agents, knowledge base, precision evals, and human handoff.",
-            },
-            {
-                "nome": "Conversational English for Devs",
-                "url": "https://github.com/Rafael-Rangel/ingles-conversacional-devs",
-                "desc": "Tutor with embeddings, controlled context window, and system/user prompt practice.",
-            },
-        ],
+        "projetos": PROJETOS_EN,
         "skills": [
             "<b>AI:</b> RAG, embeddings, hybrid search, rerank, multi-agent, tool calling, function calling, system prompt, context engineering, evals",
             "<b>Tokens & quality:</b> token budget, prompt caching, model routing, streaming, faithfulness, hallucination control, LLM-as-judge",
@@ -198,18 +192,7 @@ VERSOES = [
             },
             JOB_FRONT_PT,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "Aplicação TypeScript com modelagem de dados e deploy em cloud. github.com/Rafael-Rangel/pulse",
-            },
-        ],
+        "projetos": PROJETOS_PT,
         "skills": [
             "<b>Arquitetura:</b> multi-tenancy, event-driven, filas, webhooks, modularização, observabilidade",
             "<b>Escala e segurança:</b> load balancing, horizontal scaling, RBAC, OWASP, secrets, PII, rate limit",
@@ -248,18 +231,7 @@ VERSOES = [
             },
             JOB_FRONT_EN,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "TypeScript app with data modeling and cloud deploy. github.com/Rafael-Rangel/pulse",
-            },
-        ],
+        "projetos": PROJETOS_EN,
         "skills": [
             "<b>Architecture:</b> multi-tenancy, event-driven, queues, webhooks, modularization, observability",
             "<b>Scale & security:</b> load balancing, horizontal scaling, RBAC, OWASP, secrets, PII, rate limiting",
@@ -297,18 +269,7 @@ VERSOES = [
             },
             JOB_FRONT_PT,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "Controle financeiro em TypeScript. github.com/Rafael-Rangel/pulse",
-            },
-        ],
+        "projetos": PROJETOS_PT,
         "skills": [
             "<b>Linguagens:</b> TypeScript, JavaScript, Python, HTML, CSS, SQL",
             "<b>Frontend:</b> React, Next.js, SPA, PWA",
@@ -347,18 +308,7 @@ VERSOES = [
             },
             JOB_FRONT_EN,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "Personal finance in TypeScript. github.com/Rafael-Rangel/pulse",
-            },
-        ],
+        "projetos": PROJETOS_EN,
         "skills": [
             "<b>Languages:</b> TypeScript, JavaScript, Python, HTML, CSS, SQL",
             "<b>Frontend:</b> React, Next.js, SPA, PWA",
@@ -395,18 +345,7 @@ VERSOES = [
             },
             JOB_FRONT_PT,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "GSALES CRM",
-                "url": "https://github.com/Rafael-Rangel/",
-                "desc": "Análise de fluxos comerciais e conexão com sistemas externos.",
-            },
-        ],
+        "projetos": PROJETOS_PT,
         "skills": [
             "<b>Análise:</b> requisitos, regras de negócio, casos de uso, fluxos, documentação",
             "<b>Sistemas:</b> APIs REST, webhooks, modelagem PostgreSQL, multi-tenancy",
@@ -442,18 +381,7 @@ VERSOES = [
             },
             JOB_FRONT_EN,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "GSALES CRM",
-                "url": "https://github.com/Rafael-Rangel/",
-                "desc": "Commercial-flow analysis and external system connections.",
-            },
-        ],
+        "projetos": PROJETOS_EN,
         "skills": [
             "<b>Analysis:</b> requirements, business rules, use cases, flows, documentation",
             "<b>Systems:</b> REST APIs, webhooks, PostgreSQL modeling, multi-tenancy",
@@ -489,23 +417,7 @@ VERSOES = [
             },
             JOB_FRONT_PT,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "SaaS de CRM com agentes de IA, Workflows, RAG e atendimento omnichannel (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "App TypeScript de controle financeiro. github.com/Rafael-Rangel/pulse",
-            },
-            {
-                "nome": "Portfólio",
-                "url": "https://rafael-rangel.github.io/portfolio/",
-                "desc": "Portfólio atual: rafael-rangel.github.io/portfolio",
-            },
-        ],
+        "projetos": PROJETOS_PT,
         "skills": [
             "<b>Frontend:</b> React, Next.js, HTML, CSS, JavaScript, TypeScript",
             "<b>Backend:</b> Node.js, NestJS, PostgreSQL, REST, webhooks",
@@ -542,23 +454,7 @@ VERSOES = [
             },
             JOB_FRONT_EN,
         ],
-        "projetos": [
-            {
-                "nome": "KoruVision CRM",
-                "url": "https://github.com/Rafael-Rangel/koruvision-landing",
-                "desc": "CRM SaaS with AI agents, Workflows, RAG, and omnichannel support (WhatsApp/Instagram).",
-            },
-            {
-                "nome": "Pulse",
-                "url": "https://pulse-rangel1.vercel.app",
-                "desc": "TypeScript personal-finance app. github.com/Rafael-Rangel/pulse",
-            },
-            {
-                "nome": "Portfolio",
-                "url": "https://rafael-rangel.github.io/portfolio/",
-                "desc": "Current portfolio: rafael-rangel.github.io/portfolio",
-            },
-        ],
+        "projetos": PROJETOS_EN,
         "skills": [
             "<b>Frontend:</b> React, Next.js, HTML, CSS, JavaScript, TypeScript",
             "<b>Backend:</b> Node.js, NestJS, PostgreSQL, REST, webhooks",
